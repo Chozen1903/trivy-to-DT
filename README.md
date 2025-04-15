@@ -8,3 +8,6 @@ curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/inst
 curl -LO https://dependencytrack.org/docker-compose.yml
 sudo docker compose up -d
 
+## 기능
+1. trivy 를 통해 sbom.json 파일생성
+2. json 파일생성이 성공했다면 그 파일을 DT에 업로드 (프로젝트 없을 시 자동 생성후 업로드)
