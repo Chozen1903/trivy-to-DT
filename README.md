@@ -11,7 +11,9 @@ sudo docker compose up -d
 
 ### API 생성
 http://localhost:8080 접속후 초기 아이디인 admin / admin 으로 접속 (첫 접속 시 비번변경)
+
 경로 : Dashbboard -> Administration -> Access Management -> team -> Automation
+
 첫 생성시 업로드 권한이 모자라므로 API_KEY 생성 아래에 Permmisions 에서 PORTFOLIO_MANAGEMENT 권한 추가
 
 ## 기능
