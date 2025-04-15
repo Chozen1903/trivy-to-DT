@@ -6,6 +6,7 @@ curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/inst
 
 ### DT 사용
 curl -LO https://dependencytrack.org/docker-compose.yml
+
 sudo docker compose up -d
 
 ### API 생성
